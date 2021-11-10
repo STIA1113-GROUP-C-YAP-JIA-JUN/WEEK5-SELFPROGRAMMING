@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class IFSTATEMENT {
+
+	public static void main(String[] args) {
+		
+		double y = 15.0;
+		double x = 25.0;
+		double a = 10.0;
+		double b = 10.0;
+		
+		
+		if (y!= x);
+		if (y <= x);
+		if (y < x);
+		if (a == b);
+		
+		System.out.println("Result = y not equal to x");
+		System.out.println("Result = y less than or equal to x");
+		System.out.println("Result = y is less than x");
+		System.out.println("Result = a equal to b");
