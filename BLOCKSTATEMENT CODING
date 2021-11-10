@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class BlockStatement {
+
+	public static void main(String[] args) {
+		double amount = 1000;
+		double balance = 850;
+		if (amount <= balance);
+		{	balance = balance - amount;
+			System.out.println("Acct new balance = "  + balance);
+		}
+		
+		if (amount <= balance);
+			balance = balance - amount;
+		System.out.println("Acct new balance = "  + balance);
