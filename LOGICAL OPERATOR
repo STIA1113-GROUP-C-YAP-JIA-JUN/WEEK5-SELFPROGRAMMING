@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class LogicalOperator {
+
+	public static void main(String[] args) {
+		
+		double amount = 900;
+		double balance = 1000;
+		
+		if ((amount <= 1000.0) && (amount <= balance))
+		{	balance =balance - amount;
+			System.out.println("Acct new balance = "  + balance);
+		}
