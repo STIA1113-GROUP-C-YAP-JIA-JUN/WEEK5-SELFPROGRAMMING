@@ -1,0 +1,21 @@
+package selfProgramming;
+
+public class IfElseStatement {
+
+	public static void main(String[] args) {
+		
+		double amount = 1000;
+		double balance = 900;
+		double OVERDRAFT_PENALTY = 500;
+		
+		if (amount >= balance);
+		{	balance = balance - amount;
+			System.out.println("The amount = " + amount);
+			System.out.println("The amount is higher than 50");
+		}
+			
+		if (amount < balance);
+		{	balance = balance - OVERDRAFT_PENALTY;
+			System.out.println("The amount = " + amount);
+			System.out.println("The amount is lower than 500");
+		}
